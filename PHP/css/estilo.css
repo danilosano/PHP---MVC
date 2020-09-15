@@ -1,0 +1,42 @@
+html{
+    font-family: Arial;
+}
+#menu ul li{
+    display: inline-block;
+    margin: 5px;
+}
+#menu  ul li ul{
+    display: table;
+    padding: 0px;
+}
+#menu  ul li ul li{
+    display: block;
+    border: 1px solid;
+}
+header{
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+}
+nav{
+    border: solid 2px;
+    width: 500px;
+    margin: 0 auto;
+}
+#conteiner{
+    border: solid 2px;
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+}
+#conteiner form label{
+    margin: 5px;
+}
+#conteiner form input{
+    margin: 5px;
+}
+footer{
+    border: solid 2px;
+    padding: 5px;
+    margin-top: 5px;
+}
